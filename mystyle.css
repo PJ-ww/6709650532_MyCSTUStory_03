@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(62, 69, 110);
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.banner {
+    background-image: url("https://i.pinimg.com/736x/6b/af/ce/6bafce45888f1e973ff69d8c65cdf9ae.jpg");
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-info {
+    margin: 50px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(209, 220, 231);
+}
+
+main div {
+    padding: 10%;
+    font-family: "Sriracha", cursive;
+}
+
+main img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

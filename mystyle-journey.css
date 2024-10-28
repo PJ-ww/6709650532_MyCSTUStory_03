@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arvo;
+}
+
+Header, footer
+{
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-image: url(https://i.pinimg.com/236x/19/35/b2/1935b2e10e5ac6aa427f87d52c0c2621.jpg);
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    background-color: #D2E0FB;
+}
+
+nav{
+    width: 15%;
+    height: 960px;
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url(https://i.pinimg.com/236x/76/18/6c/76186c16add1b7d617b4b7155cd377e3.jpg);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #2e539e;
+}
+
+main{
+    width: 85%;
+    height: 960px;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: url(https://i.pinimg.com/236x/36/9c/f9/369cf9413b005a2aac6d3982c04b7867.jpg);
+}
+
+main img{
+    width: 30%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.first-year {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F5EFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.first-year p, .second-year p, .third-year p, .forth-year p{
+    font-family: Noto Sans Thai Looped;
+}
+
+.second-year{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #F5EFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.third-year{
+    padding: 20px;
+    background-color: #F5EFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.forth-year{
+    padding: 20px;
+    background-color: #F5EFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+
