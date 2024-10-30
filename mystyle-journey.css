@@ -104,13 +104,10 @@ main img{
 
 @media (max-width:800px){
     nav{
-        display: flex;
-        flex-direction: row;
         width: 100%;
-    }
-
-    nav ul li a {
-        text-decoration: none;
+        text-align: center;
+        height: 100%;
+        padding: 10px;
     }
 
     main{

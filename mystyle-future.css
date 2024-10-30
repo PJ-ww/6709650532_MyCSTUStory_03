@@ -5,7 +5,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
 }
 
 header, footer, main{
@@ -29,7 +28,7 @@ footer{
 
 main{
     width: 100%;
-    height: 800px;
+    height: 100%;
     background-color: #fcd5ce;
     font-family: Noto Sans Thai Looped;
     background-image: url(https://i.pinimg.com/236x/7f/85/d6/7f85d66a481543f67d778c8cb3c7336a.jpg);
@@ -42,28 +41,30 @@ main h3{
     margin-top: 20px;
 }
 
+.main-picture{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 main .img1 {
-    width: 20%;
+    width: 80%;
     margin-top: 10px;
-    float: left;
 }
 
 main .img2{
-    width: 20%;
+    width: 80%;
     border-radius: 100%;
-    margin-top: 20px;
-    float: left;
+    margin-top: 20px;   
 }
 
 main .img3{
-    width: 20%;
+    width: 80%;
     border-radius: 100%;
     margin: 40px;
-    float: left;
 }
 
 @media (max-width:800px){
-    main {
+    .main-picture {
         grid-template-columns: 1fr;
     }
 }
