@@ -85,3 +85,9 @@ footer {
         transform: translateY(0px);
     }
 }
+
+@media (max-width:800px){
+    main {
+        grid-template-columns: 1fr;
+    }
+}
